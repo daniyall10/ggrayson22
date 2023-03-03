@@ -411,3 +411,122 @@ body {
 .customizable__item:hover::after {
     transform: translateY(0);
 }
+.footer__content {
+    background: #000;
+    padding: 36px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.footer__list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    column-gap: 10px;
+}
+
+.footer__link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    display: block;
+}
+
+.footer__list li:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.footer__box {
+    max-width: 255px;
+    width: 100%;
+}
+
+.footer__form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer__input {
+    background: #fff;
+    max-width: 200px;
+    width: 100%;
+    padding: 14px 10px;
+    outline: none;
+    border: none;
+}
+
+.footer__input::placeholder {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #919191;
+}
+
+.footer__btn {
+    background: #41A28E;
+    height: 44px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer__desc {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer__icons {
+    display: flex;
+    column-gap: 25px;
+}
+
+.footer__ads {
+    background: #121212;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer__span {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #666666;
+    margin-right: 3px;
+}
+
+.footer__span:nth-child(2) {
+    text-shadow: 0px 0px 4px #E52D27;
+    margin-right: 0;
+    text-transform: uppercase;
+}
